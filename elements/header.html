@@ -1,26 +1,28 @@
 <header class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>(14)3731 2399
+    <div class="container-fluid cabecalho-linha">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                        <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Telefone: (14) 3731 2399
+                </div>
+                 <div class="col-md-2">
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> E-mail: email@email.com.br 
+                </div>
             </div>
         </div>
     </div>
-
-    <h1>Leonardo</h1>
-
-    <div class="container">
-        
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 text-left">
-                <a class="brand" href="{{ links.home }}" title="{{ store.name }}">{{ store.name }}</a>
-            </div>
-            <div class="hidden-xs col-sm-4 header-customer text-right">
-                {% element 'snippets/customer' %}
-            </div>
-            <div class="col-xs-12 col-sm-4 text-right">
-                {% element 'snippets/search' %}
+    <div class="container-fluid cabecalho">
+        <div class="container">
+           <div class="row">
+                <div class="col-xs-12 col-sm-4 text-left">
+                    <a class="brand" href="{{ links.home }}" title="{{ store.name }}">{{ store.name }}</a>
+                </div>
+                <div class="hidden-xs col-sm-4 header-customer text-right">
+                    {% element 'snippets/customer' %}
+                </div>
+                <div class="col-xs-12 col-sm-4 text-right">
+                    {% element 'snippets/search' %}
+                </div>
             </div>
         </div>
     </div>

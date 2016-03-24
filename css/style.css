@@ -1,1 +1,24 @@
-header{background: #F6F6F6}
+@charset "UTF-8";
+* {
+  font-family: Roboto; }
+
+.container-fluid {
+  padding: 0; }
+
+.cabecalho-linha {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #DDD; }
+
+.cabecalho {
+  background: #F5F5F5; }
+
+/* ├ìcones */
+.glyphicon-phone-alt {
+  color: #df1f26; }
+
+.glyphicon-envelope {
+  color: #df1f26; }
+
+/*# sourceMappingURL=style.css.map */
