@@ -1,14 +1,29 @@
 //Variaveis
-$icones: #df1f26;
+$icones: #00A79A;
+$link: #00A79A;
+
 
 *{font-family: Roboto}
+a{color: $link !important}
 
 .container-fluid{padding: 0}
+.list-inline{margin:0; padding:0; list-style:none; float:right}
+.list-inline li{float:left;  padding-left:10px; padding-right:10px; border-right:1px solid #EEE;}
+.caret:after{ content: "\f0d7";  font-family: 'FontAwesome';  font-size: 12px; margin-left: 5px;  position: relative;
+    top: 0;
+    display: inline-block; } 
 
 
 .cabecalho-linha{padding-top: 10px; padding-bottom: 10px; font-size: 12px; border-bottom: 1px solid #DDD}
-.cabecalho{background: #F5F5F5; }
 
+.cabecalho{background: #F5F5F5; padding-bottom:10px;  }
+.cabecalho .cabecalho-links{padding-top:20px;}
+.cabecalho .cabecalho-links ul{list-style:none;}
+.cabecalho .cabecalho-links ul li{float:left;  padding-left:10px; padding-right:10px; border-right:1px solid #EEE;}
+
+
+.cabecalho-busca-fundo{background: #F5F5F5;}
+.cabecalho-busca{background: #444;}
 
 /* Ícones */
 .glyphicon-phone-alt{color:$icones}

@@ -1,0 +1,9 @@
+    {% if customer.logged %}
+    Olá {{ customer.name }}
+    {% else %}
+
+    <ul class="list-inline">    
+        <li><a href="{{ links.login }}">Login</a> </li>
+        <li> Minha conta <span class="caret"></span></li>
+    </ul>
+    {% endif %}

@@ -8,22 +8,38 @@
                  <div class="col-md-2">
                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> E-mail: email@email.com.br 
                 </div>
+                <div class="col-md-2 col-md-offset-6 text-right">
+                      {% element 'snippets/cabecalho-login' %}
+                </div>
             </div>
         </div>
     </div>
     <div class="container-fluid cabecalho">
         <div class="container">
            <div class="row">
-                <div class="col-xs-12 col-sm-4 text-left">
-                    <a class="brand" href="{{ links.home }}" title="{{ store.name }}">{{ store.name }}</a>
-                </div>
-                <div class="hidden-xs col-sm-4 header-customer text-right">
-                    {% element 'snippets/customer' %}
-                </div>
-                <div class="col-xs-12 col-sm-4 text-right">
+                <div class="col-md-3 col-xs-12 col-sm-3 text-left">
+                    <a class="brand" href="{{ links.home }}" title="{{ store.name }}">
+                        <img width="128" src="{{ asset('css/images/logo.png') }}">
+                    </a>
+                </div>  
+                <div class="col-md-5 cabecalho-links">
+                    <ul>
+                        <li>LOJA <span class="caret"></span></li>
+                        <li>PROMOÇÕES <span class="caret"></span></li>
+                        <li>SOBRE <span class="caret"></span></li>
+
+
+                    </ul>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid cabecalho-busca-fundo">
+        <div class="container cabecalho-busca">
+           <div class="row">
+               <div class="col-xs-12 col-sm-4">
                     {% element 'snippets/search' %}
                 </div>
             </div>
         </div>
-    </div>
 </header>
