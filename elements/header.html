@@ -22,14 +22,20 @@
                         <img width="128" src="{{ asset('css/images/logo.png') }}">
                     </a>
                 </div>  
-                <div class="col-md-5 cabecalho-links">
+                <div class="col-md-7 cabecalho-links">
                     <ul>
                         <li>LOJA <span class="caret"></span></li>
                         <li>PROMOÇÕES <span class="caret"></span></li>
                         <li>SOBRE <span class="caret"></span></li>
-
-
                     </ul>
+                </div>   
+                <div class="col-md-2 cabecalho-carrinho">
+                    <div class="carrinho">
+                        <a href="{{ links.cart }}">
+                         <span class="glyphicon glyphicon-shopping-cart"></span> 
+                        </a> 
+                             {{ cart.amount }} itens
+                    </div>
                 </div>            
             </div>
         </div>

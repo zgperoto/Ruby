@@ -3,7 +3,8 @@
   font-family: Roboto; }
 
 a {
-  color: #00A79A !important; }
+  color: #00A79A !important;
+  text-decoration: none !important; }
 
 .container-fluid {
   padding: 0; }
@@ -40,7 +41,8 @@ a {
   padding-bottom: 10px; }
 
 .cabecalho .cabecalho-links {
-  padding-top: 20px; }
+  padding-top: 50px;
+  font-size: 16px; }
 
 .cabecalho .cabecalho-links ul {
   list-style: none; }
@@ -50,6 +52,17 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   border-right: 1px solid #EEE; }
+
+.cabecalho .cabecalho-carrinho {
+  margin-top: 44px; }
+
+.cabecalho .cabecalho-carrinho .carrinho {
+  font-size: 19px;
+  background: #FFF;
+  border: 4px solid #DDD;
+  border-style: double;
+  padding: 12px;
+  text-align: center; }
 
 .cabecalho-busca-fundo {
   background: #F5F5F5; }

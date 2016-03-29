@@ -4,7 +4,7 @@ $link: #00A79A;
 
 
 *{font-family: Roboto}
-a{color: $link !important}
+a{color: $link !important; text-decoration:none !important}
 
 .container-fluid{padding: 0}
 .list-inline{margin:0; padding:0; list-style:none; float:right}
@@ -17,10 +17,12 @@ a{color: $link !important}
 .cabecalho-linha{padding-top: 10px; padding-bottom: 10px; font-size: 12px; border-bottom: 1px solid #DDD}
 
 .cabecalho{background: #F5F5F5; padding-bottom:10px;  }
-.cabecalho .cabecalho-links{padding-top:20px;}
+.cabecalho .cabecalho-links{padding-top:50px; font-size:16px;}
 .cabecalho .cabecalho-links ul{list-style:none;}
 .cabecalho .cabecalho-links ul li{float:left;  padding-left:10px; padding-right:10px; border-right:1px solid #EEE;}
 
+.cabecalho .cabecalho-carrinho{margin-top:44px;}
+.cabecalho .cabecalho-carrinho .carrinho{font-size: 19px; background:#FFF; border: 4px solid #DDD;border-style: double;padding: 12px;text-align: center;}
 
 .cabecalho-busca-fundo{background: #F5F5F5;}
 .cabecalho-busca{background: #444;}
