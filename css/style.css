@@ -6,8 +6,14 @@ a {
   color: #00A79A !important;
   text-decoration: none !important; }
 
+.container {
+  padding: 0; }
+
 .container-fluid {
   padding: 0; }
+
+.padding-none {
+  padding: none !important; }
 
 .list-inline {
   margin: 0;
@@ -30,6 +36,7 @@ a {
   top: 0;
   display: inline-block; }
 
+/* CABECALHO */
 .cabecalho-linha {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -57,7 +64,7 @@ a {
   margin-top: 44px; }
 
 .cabecalho .cabecalho-carrinho .carrinho {
-  font-size: 19px;
+  font-size: 16px;
   background: #FFF;
   border: 4px solid #DDD;
   border-style: double;
@@ -70,9 +77,51 @@ a {
 .cabecalho-busca {
   background: #444; }
 
+.cabecalho-busca .cabecalho-listacategorias {
+  color: #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+.cabecalho-busca .categorias-span {
+  font-weight: bold;
+  margin-left: 5px; }
+
+.cabecalho-busca .cabecalho-buscaform {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #333;
+  height: 48px; }
+
+.cabecalho-busca .cabecalho-buscaform .search {
+  width: 760px;
+  border: none;
+  height: 32px;
+  margin-top: 2px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left; }
+
+.cabecalho-busca .cabecalho-buscaform .search-button {
+  border: none;
+  margin-top: 2px;
+  background: #00A79A;
+  height: 43px;
+  width: 47px; }
+
+.cabecalho-busca .cabecalho-buscaform .search-button .glyphicon-search {
+  color: #FFF; }
+
 /* ├ìcones */
 .glyphicon-phone-alt {
   color: #00A79A; }
 
 .glyphicon-envelope {
   color: #00A79A; }
+
+/*SIDEBAR*/
+.sidebar-categorias {
+  border: 1px solid #CCC; }

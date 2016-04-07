@@ -34,7 +34,7 @@
                         <a href="{{ links.cart }}">
                          <span class="glyphicon glyphicon-shopping-cart"></span> 
                         </a> 
-                             {{ cart.amount }} itens
+                             {{ cart.amount }} itens -  {{ settings.currency }}{{ cart.price }}
                     </div>
                 </div>            
             </div>
@@ -43,7 +43,11 @@
     <div class="container-fluid cabecalho-busca-fundo">
         <div class="container cabecalho-busca">
            <div class="row">
-               <div class="col-xs-12 col-sm-4">
+                <div class="col-md-3 cabecalho-listacategorias">
+                    <span class="glyphicon glyphicon-list"></span> <span class="categorias-span">Categorias</span>
+                </div>
+
+                <div class="col-md-9 cabecalho-buscaform">
                     {% element 'snippets/search' %}
                 </div>
             </div>

@@ -6,13 +6,19 @@ $link: #00A79A;
 *{font-family: Roboto}
 a{color: $link !important; text-decoration:none !important}
 
+.container{padding:0}
 .container-fluid{padding: 0}
+
+.padding-none{padding:none !important}
+
 .list-inline{margin:0; padding:0; list-style:none; float:right}
 .list-inline li{float:left;  padding-left:10px; padding-right:10px; border-right:1px solid #EEE;}
 .caret:after{ content: "\f0d7";  font-family: 'FontAwesome';  font-size: 12px; margin-left: 5px;  position: relative;
     top: 0;
     display: inline-block; } 
 
+
+/* CABECALHO */
 
 .cabecalho-linha{padding-top: 10px; padding-bottom: 10px; font-size: 12px; border-bottom: 1px solid #DDD}
 
@@ -22,11 +28,24 @@ a{color: $link !important; text-decoration:none !important}
 .cabecalho .cabecalho-links ul li{float:left;  padding-left:10px; padding-right:10px; border-right:1px solid #EEE;}
 
 .cabecalho .cabecalho-carrinho{margin-top:44px;}
-.cabecalho .cabecalho-carrinho .carrinho{font-size: 19px; background:#FFF; border: 4px solid #DDD;border-style: double;padding: 12px;text-align: center;}
+.cabecalho .cabecalho-carrinho .carrinho{font-size: 16px; background:#FFF; border: 4px solid #DDD;border-style: double;padding: 12px;text-align: center;}
 
 .cabecalho-busca-fundo{background: #F5F5F5;}
 .cabecalho-busca{background: #444;}
 
+.cabecalho-busca .cabecalho-listacategorias{color:#FFF; font-size:16px; text-transform:uppercase; margin-top:3px;  padding-top:13px; padding-bottom:13px;}
+.cabecalho-busca .categorias-span{font-weight:bold; margin-left:5px;}
+
+.cabecalho-busca .cabecalho-buscaform {padding-top:2px; padding-bottom:2px; background:#333; height:48px}
+.cabecalho-busca .cabecalho-buscaform .search{width: 760px;border: none;height: 32px;margin-top: 2px; padding: 5px;padding-left: 20px;padding-right: 20px;float: left;}
+
+.cabecalho-busca .cabecalho-buscaform .search-button{border:none; margin-top:2px; background: $icones; height: 43px; width: 47px;}
+
+.cabecalho-busca  .cabecalho-buscaform .search-button .glyphicon-search{color:#FFF;}
+
 /* Ícones */
 .glyphicon-phone-alt{color:$icones}
 .glyphicon-envelope{color: $icones}
+
+/*SIDEBAR*/
+.sidebar-categorias{border:1px solid #CCC;}
